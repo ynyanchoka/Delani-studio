@@ -67,4 +67,22 @@ h6{
 .portfolio{
     text-align: center;
 }
+#contact{
+    text-align: center;
+}
+.contact-us {
+    background-image: url(../assets/machine.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;    
+    padding: 10%;
+      
+  }
+  .form-control{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  ::placeholder { 
+    color: white;
+    
+  }
 
