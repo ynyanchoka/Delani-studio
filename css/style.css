@@ -1,0 +1,43 @@
+.introduction{
+    
+    background-image: url(../assets/steps.jpg);    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+    padding-top:17%; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+.logo {
+    padding-top : 20px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+.mouse-click{
+    padding-top : 20px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+
+}
+h4{
+    font-size: xx-large;
+}
+.about-us{
+    text-align: center; 
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+    padding-top:40px;
+}
+.services{
+    background-image: url(../assets/keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+
+}
