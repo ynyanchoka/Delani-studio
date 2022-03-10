@@ -54,3 +54,12 @@ h6{
     text-align: center;
     font-size: small;
 }
+.design-showing{
+    display: none;
+}
+.development-showing{
+    display: none;
+}
+.product-management-showing{
+    display: none;
+}
