@@ -67,6 +67,10 @@ h6{
 .portfolio{
     text-align: center;
 }
+h6{
+    cursor: pointer;
+}
+
 #contact{
     text-align: center;
 }
@@ -77,12 +81,28 @@ h6{
     padding: 10%;
       
   }
-  .form-control{
+.form-control{
     background-color: rgba(0, 0, 0, 0);
     color: white;
   }
-  ::placeholder { 
+#name::placeholder { 
     color: white;
     
+  }
+#email::placeholder { 
+    color: white;
+    
+  }
+#message::placeholder { 
+    color: white;
+    
+  }
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
   }
 
