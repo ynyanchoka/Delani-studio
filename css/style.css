@@ -43,6 +43,7 @@ h4{
 }
 h6{
     text-align: center;
+    font-weight: bold;
 }
 /* #icon{
     position:relative;
@@ -63,3 +64,7 @@ h6{
 .product-management-showing{
     display: none;
 }
+.portfolio{
+    text-align: center;
+}
+
