@@ -41,3 +41,16 @@ h4{
     font-family: 'Roboto', sans-serif;
 
 }
+h6{
+    text-align: center;
+}
+/* #icon{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+} */
+.whatwedo{
+    text-align: center;
+    font-size: small;
+}
