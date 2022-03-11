@@ -54,9 +54,9 @@ h4{
     
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
     color: white;
-    text-align: center;
-    font-size: small;
+    text-align: center;    
     font-family: 'Roboto Condensed', sans-serif;
     
 
@@ -65,15 +65,9 @@ h6{
     text-align: center;
     font-weight: bold;
 }
-/* #icon{
-    position:relative;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%)
-} */
+
 .whatwedo{
-    text-align: center;
-    font-size: small;
+    text-align: center;   
     font-family: 'Roboto Condensed', sans-serif;
 }
 .design-showing{
@@ -89,12 +83,15 @@ h6{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
+  
+
 h6{
-    cursor: pointer;
+    cursor: progress;
 }
-#work5{
+#work{
     position: relative;
 }
+
 #portfolio-image{
     display: flex;
     align-items: center;
@@ -103,19 +100,13 @@ h6{
     flex-wrap: wrap;
    
 }
-.col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
-  }
+
 .image {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
-  }
-
-
-/*  
+}
+ 
 .hover{
     position: absolute;
     top: 0;
@@ -128,39 +119,18 @@ h6{
     transition: .5s ease;
     background: rgba(0, 0, 0, 0.6);
     
-  }  */
+} 
 #portfolio-image:hover .hover {
     opacity: 1;
-  }
-text {
+}
+.textoverlay {
     color: white;
     font-size: 20px;
-    position: absolute;
+    position: center;
     top: 50%;
-    left: 50%;
-   
+    left: 50%;   
     text-align: center;
-  }
-
-
-#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-    display: none;
-    color: black;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(255, 255, 255, 0.456);
-    position:absolute;
-    top: 80px;
-    left: 35px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50%;
-    font-family: 'Delius Swash Caps', cursive;
-  }
-  
-
-
+}
 
 #contact{
     text-align: center;
@@ -175,23 +145,23 @@ text {
     font-family: 'Roboto Condensed', sans-serif;
     
       
-  }
+}
 .form-control{
     background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 0);
-  }
+ }
 #name::placeholder { 
     color: white;
     
-  }
+}
 #email::placeholder { 
     color: white;
     
-  }
+}
 #message::placeholder { 
     color: white;
     
-  }
+}
 
 .submit{
     color: white;
@@ -204,7 +174,7 @@ input[type=text],input[type=email],#message{
     color: white;
     font-size: 20px;
    
-  }
+}
 .footer {
     position: static;
     left: 0;
@@ -214,5 +184,5 @@ input[type=text],input[type=email],#message{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     
-  }
+}
 

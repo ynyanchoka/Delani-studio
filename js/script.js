@@ -27,24 +27,6 @@ $(document).ready(function() {
 
   });
 
-
-// $(document).ready(function(){
-//     $("#contactus").submit(function(event){
-          
-//       var name = $("input#name").val();
-//       var email = $("input#email").val();
-//       var message = $("textarea#message").val();
-//       if ($("input#name").val() && $("input#email").val()){
-//             alert (name + ", we have received your message. Thank you for reaching out to us.");
-//           }
-//       else {
-//             alert("Please enter your name and email!");
-//           }
-          
-//     });
-//   });
-
-
   function validate () {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
