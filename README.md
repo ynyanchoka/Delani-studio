@@ -9,7 +9,7 @@ https://github.com/ynyanchoka
 ## Instructions
 Follow the steps below to run the project locally:
 - Clone the project locally
-- cd into project folder and open index.html
+- cd into project folder and open in text editor
 
 
 ## BDD
