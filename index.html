@@ -171,31 +171,32 @@
     </div>
   </div>
   <br> <br>
-  <div class="container-fluid">
+  <div class="container-fluid">    
     <div class="contact-us">
       <h2 id="contact">CONTACT US</h2>
-         <form>
+      
+         <form onsubmit="validate()">
           <div class="row">
               <div class="col-md-6">
                 <div class="form-group">                 
-                  <input type="text" class="form-control" id="name" placeholder="Name..." required>
+                  <input type="text" class="form-control" id="name" placeholder="Name...">
 
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="email" class="form-control" id="email" placeholder=" Email..." required>
+                  <input type="email" class="form-control" id="email" placeholder=" Email..." >
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-group">
                 <label for="message"></label>
-                <textarea type="text" class="form-control" id="message" cols="30" rows="5" placeholder="Your message here..."></textarea>
+                <textarea type="text" class="form-control" id="message" cols="30" rows="10" placeholder="Your message here..."></textarea>
               </div>      
           </div>
           <div class="button">
         
-            <button type="submit" class= "submit">Submit</button>
+            <button type="submit" class= "submit" >Submit</button>
         </div>
           
          

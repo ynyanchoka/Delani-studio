@@ -168,7 +168,8 @@ text {
 }
 .contact-us {
     background-image: url(../assets/machine.jpg);
-    background-size:contain;
+    background-size:cover;
+    height: 80%;
     background-repeat: no-repeat;    
     padding: 10%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -194,7 +195,7 @@ text {
 
 .submit{
     color: white;
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0);
     margin-top: 10px;
 }
 
