@@ -1,193 +1,171 @@
-*{font-family: 'Source Sans Pro', sans-serif;}
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
-.introduction{
-    
-    background-image: url(../assets/steps.jpg);    
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: aliceblue;
-    text-align: center;   
-           
+.introduction {
+  background-image: url(../assets/steps.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  text-align: center;
+  background-attachment: fixed;
 }
-#intro{
-    font-weight: 800;
-    font-family: 'Abril Fatface', cursive;
+#intro {
+  font-weight: 800;
+  font-family: "Abril Fatface", cursive;
 }
-.welcome{
-    font-weight: 700;
+.welcome {
+  font-weight: 700;
 }
 .logo {
-    padding-top : 20px;
-    margin-top: 10%;
-    padding-bottom: 30px;
+  padding-top: 20px;
+  margin-top: 10%;
+  padding-bottom: 30px;
 }
-.mouse-click{
-    padding-top : 18px;
-    margin-top: 10%;
-    padding-bottom: 30px;
-    animation-name: bounce;
-       
+.mouse-click {
+  padding-top: 18px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+  animation-name: bounce;
 }
 
-.mouse-click{
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
+.mouse-click {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
 @keyframes slidein {
-    from {
-      margin-top: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-bottom: 0%;
-      width: 100%;
-    }
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
 }
 
-h4{
-    font-size: 50px;
+h4 {
+  font-size: 50px;
 }
-.about-us{
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top:40px;
-    
-    
+.about-us {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
-.services{
-    background-image: url(../assets/keyboard.jpg);
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 100%;
-   
-    color: white;
-    text-align: center;  
-  
+.services {
+  background-image: url(../assets/keyboard.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+
+  color: white;
+  text-align: center;
 }
-.port{
-    text-align: center;
-    font-weight: bold;
+.port {
+  text-align: center;
+  font-weight: bold;
 }
 
-.whatwedo{
-    text-align: center;   
-   
+.whatwedo {
+  text-align: center;
 }
-.design-showing{
-    display: none;
+.design-showing {
+  display: none;
 }
-.development-showing{
-    display: none;
+.development-showing {
+  display: none;
 }
-.product-management-showing{
-    display: none;
+.product-management-showing {
+  display: none;
 }
-.portfolio{
-    text-align: center;
-    
-}
-  
-
-h6{
-    cursor: progress;
-}
-#work{
-    position: relative;
+.portfolio {
+  text-align: center;
 }
 
-#portfolio-image{
-    display: flex;
-    align-items: center;
-    margin-left: 12%;
-    margin-right: 10%;
-    flex-wrap: wrap;
-   
+h6 {
+  cursor: progress;
+}
+#work {
+  position: relative;
+}
+
+#portfolio-image {
+  display: flex;
+  align-items: center;
+  margin-left: 12%;
+  margin-right: 10%;
+  flex-wrap: wrap;
 }
 
 .image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
- 
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background: rgba(0, 0, 0, 0.6);
-    
-} 
-#portfolio-image:hover .hover {
-    opacity: 1;
-}
-.textoverlay {
-    color: white;
-    font-size: px;
-    position: center;
-    top: 50%;
-    left: 50%;   
-    text-align: center;
-    font-size: larger;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-#contact{
-    text-align: center;
-    color: white;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+#work:hover .overlay {
+  opacity: 1;
+}
+
+#contact {
+  text-align: center;
+  color: white;
 }
 .contact-us {
-    background-image: url(../assets/machine.jpg);
-    background-size:cover;
-    height: 80%;
-    background-repeat: no-repeat;    
-    padding: 10%;
-    
-    
-    
-      
+  background-image: url(../assets/machine.jpg);
+  background-size: cover;
+  height: 80%;
+  background-repeat: no-repeat;
+  padding: 10%;
 }
-.form-control{
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
- }
-#name::placeholder { 
-    color: white;
-    
+.form-control {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
-#email::placeholder { 
-    color: white;
-    
+#name::placeholder {
+  color: white;
 }
-#message::placeholder { 
-    color: white;
-    
+#email::placeholder {
+  color: white;
+}
+#message::placeholder {
+  color: white;
 }
 
-.submit{
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    margin-top: 10px;
+.submit {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 10px;
 }
 
-input[type=text],input[type=email],#message{
-    background: transparent;
-    color: white;
-    font-size: 20px;
-   
+input[type="text"],
+input[type="email"],
+#message {
+  background: transparent;
+  color: white;
+  font-size: 20px;
 }
 .footer {
-    position: static;    
-    text-align: center;
-    ;
-    
+  position: static;
+  text-align: center;
 }
 
