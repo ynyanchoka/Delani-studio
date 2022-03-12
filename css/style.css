@@ -68,7 +68,7 @@ h4{
     text-align: center;  
   
 }
-h6{
+.port{
     text-align: center;
     font-weight: bold;
 }
@@ -114,7 +114,7 @@ h6{
     height: auto;
 }
  
-.hover{
+.overlay{
     position: absolute;
     top: 0;
     bottom: 0;

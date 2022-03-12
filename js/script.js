@@ -16,7 +16,7 @@ $(document).ready(function() {
     });
 
    
-    $(".hover").hover(function(){
+    $(".overlay").hover(function(){
         $(this).animate({opacity:'1'});
       },
       function(){
