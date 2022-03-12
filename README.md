@@ -1,6 +1,9 @@
 # DELANI STUDIO
-This is the landing page for Delani studio.IThe landing page shows what Delani studio does and also has a portfolio with their recent projects.
-It also has all their social media handles if you want to contact them.
+This is the landing web page for Delani studio. The page shows:
+- what Delani studio does,
+- their portfolio,
+- services offered,
+- and all social media handles.
 
 ## Authors
 Ymelda Monari 
@@ -26,11 +29,12 @@ If they fill the form;
 
 
 ## Technologies used
-- HTML
+- HTML 
 - CSS
 - Bootstrap
 - Javascript.
 - Jquerry
+- Mailchimp to track client messages.
 ## Contacts
 monaryymelda@gmail.com
 ## License
