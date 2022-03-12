@@ -27,12 +27,12 @@
   padding-top: 18px;
   margin-top: 10%;
   padding-bottom: 30px;
-  animation-name: bounce;
+  
 }
 
 .mouse-click {
-  animation-duration: 3s;
-  animation-name: bounce 3s infinite;
+  animation-duration: 5s;
+  animation-name: bounce 5s infinite;
 }
 
 @keyframes bounce {
