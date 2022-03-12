@@ -32,18 +32,18 @@
 
 .mouse-click {
   animation-duration: 3s;
-  animation-name: slidein;
+  animation-name: bounce 3s infinite;
 }
 
-@keyframes slidein {
+@keyframes bounce {
   from {
-    margin-top: 100%;
-    width: 300%;
+    margin-top: 10%;
+    /* width: 30%; */
   }
 
   to {
     margin-bottom: 0%;
-    width: 100%;
+    /* width: 10%; */
   }
 }
 
@@ -57,13 +57,13 @@ h4 {
 }
 .services {
   background-image: url(../assets/keyboard.jpg);
-
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
-
   color: white;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
 }
 .port {
   text-align: center;
