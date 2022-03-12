@@ -25,7 +25,8 @@ $(document).ready(function() {
     
 
 
-  });
+});
+
 
   function validate () {
     var name = document.getElementById("name").value;
